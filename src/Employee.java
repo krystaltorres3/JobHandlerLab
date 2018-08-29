@@ -84,6 +84,17 @@ public class Employee {
 		}
 		//Add Code Here [You have to use If/Else to get graded]
 		
+		//Implement a method that calculates the Seniority of an Employee, named seniorityLevel().
+		
+		if(yearService >= 10){
+			return 3;
+		}
+		else if(yearService >=5){
+			return 2;
+		}
+		else if(yearService >=1){
+			return 1;
+		}
 		return 0;// Temporal Return
 		
 	}
