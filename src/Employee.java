@@ -79,7 +79,9 @@ public class Employee {
 	 * @return 
 	 */
 	public int seniorityLevel() {
-		
+		if(true) {
+			
+		}
 		//Add Code Here [You have to use If/Else to get graded]
 		
 		return 0;// Temporal Return
